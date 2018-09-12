@@ -41,6 +41,7 @@
 
 ## XML
 
+    <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -55,26 +56,26 @@
         android:layout_height="wrap_content"
         android:text="SwitchButton" />
 
-    <com.sinothk.widget.switchButton.SwitchButton
+    <com.sinothk.widget.switchButton.style1.SwitchButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         app:sb_checked="true"
         app:sb_show_indicator="false" />
 
-    <com.sinothk.widget.switchButton.SwitchButton
+    <com.sinothk.widget.switchButton.style1.SwitchButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp" />
 
-    <com.sinothk.widget.switchButton.SwitchButton
+    <com.sinothk.widget.switchButton.style1.SwitchButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         app:sb_checked="true"
         app:sb_checked_color="#fdc951" />
 
-    <com.sinothk.widget.switchButton.SwitchButton
+    <com.sinothk.widget.switchButton.style1.SwitchButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -85,7 +86,7 @@
         app:sb_shadow_color="#A36F95"
         app:sb_uncheckcircle_color="#A36F95" />
 
-    <com.sinothk.widget.switchButton.SwitchButton
+    <com.sinothk.widget.switchButton.style1.SwitchButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -105,7 +106,7 @@
         android:background="@color/colorAccent"
         android:gravity="center">
 
-        <com.sinothk.widget.switchButton.SwitchButton
+        <com.sinothk.widget.switchButton.style1.SwitchButton
             android:id="@+id/switch_button"
             android:layout_width="42dp"
             android:layout_height="28dp"
@@ -114,3 +115,4 @@
             app:sb_show_indicator="false" />
     </LinearLayout>
     </LinearLayout>
+
