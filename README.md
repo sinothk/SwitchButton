@@ -116,3 +116,4 @@
     </LinearLayout>
     </LinearLayout>
 
+![](https://github.com/sinothk/SwitchButton/blob/master/art/switch.png)
