@@ -11,7 +11,7 @@
 ## Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.sinothk:SideBar:1.0.0912'
+	        implementation 'com.github.sinothk:SideBar:1.3.0912'
 	}
 
 
@@ -116,3 +116,4 @@
     </LinearLayout>
     </LinearLayout>
 
+![](https://github.com/sinothk/SwitchButton/blob/master/art/switch.png)
