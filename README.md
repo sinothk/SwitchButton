@@ -20,28 +20,28 @@
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+	super.onCreate(savedInstanceState);
+	setContentView(R.layout.activity_main);
 
-        SwitchButton switchButton = (SwitchButton) findViewById(R.id.switch_button);
-//        switchButton.setChecked(true);
-//        switchButton.isChecked();
-//        switchButton.toggle();     //switch state
-//        switchButton.toggle(false);//switch without animation
-//        switchButton.setShadowEffect(true);//disable shadow effect
-//        switchButton.setEnabled(false);//disable button
-//        switchButton.setEnableEffect(false);//disable the switch animation
-        switchButton.setOnCheckedChangeListener(new SwitchButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(SwitchButton view, boolean isChecked) {
-                Toast.makeText(MainActivity.this, "" + isChecked, Toast.LENGTH_SHORT).show();
-            }
-        });
+	SwitchButton switchButton = (SwitchButton) findViewById(R.id.switch_button);
+	//        switchButton.setChecked(true);
+	//        switchButton.isChecked();
+	//        switchButton.toggle();     //switch state
+	//        switchButton.toggle(false);//switch without animation
+	//        switchButton.setShadowEffect(true);//disable shadow effect
+	//        switchButton.setEnabled(false);//disable button
+	//        switchButton.setEnableEffect(false);//disable the switch animation
+	switchButton.setOnCheckedChangeListener(new SwitchButton.OnCheckedChangeListener() {
+	    @Override
+	    public void onCheckedChanged(SwitchButton view, boolean isChecked) {
+		Toast.makeText(MainActivity.this, "" + isChecked, Toast.LENGTH_SHORT).show();
+	    }
+	});
     }
 
 ## XML
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -113,6 +113,4 @@
             app:sb_checked_color="#fdc951"
             app:sb_show_indicator="false" />
     </LinearLayout>
-
-
-</LinearLayout>
+    </LinearLayout>
