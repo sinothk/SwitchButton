@@ -1,4 +1,4 @@
-package com.sinothk.widget.switchButton;
+package com.sinothk.widget.switchButton.style1;
 
 import android.animation.Animator;
 import android.animation.ValueAnimator;
@@ -16,6 +16,8 @@ import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Checkable;
+
+import com.sinothk.widget.switchButton.R;
 
 
 /**
